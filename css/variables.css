@@ -1,0 +1,40 @@
+/* Design */
+
+:root {
+
+    /*colors */
+
+    --bg: #08090c;
+
+    --surface: #101218;
+    --surface-2: #171a21;
+
+    --text: #f1f3f5;
+    --muted: #8b929e;
+
+    --accent: #6ee7ff;
+    --accent-2: #8b7cff;
+
+    --success: #72e6a5;
+
+    --border: rgba(241, 243, 245, 0.12);
+
+    /* Layout */
+
+    --max-width: 1200px;
+
+    --pad: clamp(
+        1.25rem,
+        4vw,
+        4rem
+    );
+
+    /* Motion */
+
+    --ease: cubic-bezier(
+        0.2,
+        0.8,
+        0.2,
+        1
+    );
+}

@@ -1,0 +1,46 @@
+/*  ===============================================
+        BASIC RESET
+    =================================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling for anchor navigation (hopefully, I am on 99% coffee right now) */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default margins */
+
+body,
+h1,
+h2, 
+p {
+    margin: 0;
+}
+
+/* Make the links look site(ly) */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* FOrm inherit */
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+/* Image prevention */
+
+img {
+    max-width: 100%;
+    display: block;
+}
