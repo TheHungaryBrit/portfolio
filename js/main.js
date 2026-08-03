@@ -9,9 +9,11 @@
 
     if (!config) {
 
-        throw new Error(
+        console.error(
             "THB_CONFIG failed to load."
         );
+        
+        return;
 
     }
 
@@ -37,5 +39,10 @@
             ? "true"
             : "false";
 
+    if (config.debug) {
+
+        console.info(`THB ${config.site.name} v${config.site.version}`);
+        
+    }
 
 })();
