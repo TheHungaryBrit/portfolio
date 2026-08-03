@@ -5,6 +5,8 @@
 @import url("components/buttons.css");
 @import url("components/cursor.css");
 
+@import url("projects/projects.css");
+
 @import url("animations/core.css");
 @import url("animations/transitions.css");
 
