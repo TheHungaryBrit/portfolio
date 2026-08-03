@@ -1,0 +1,10 @@
+@media (pointer: fine) {
+
+    [data-magnetic] {
+
+        will-change:
+            transform;
+
+    }
+
+}
